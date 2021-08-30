@@ -28,7 +28,7 @@ Host *
     SSH_OPTION value
 ```
 
-
+Use `stormssh` to manage SSH config.  
 
 
 
