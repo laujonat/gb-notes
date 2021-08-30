@@ -34,11 +34,10 @@
 
 ## Env
 
+* [Zsh](env/zsh.md)
 * [Bash](env/bash.md)
-* [Modes](env/modes.md)
 * [Plugin Managers](env/vim-plugin-managers/README.md)
   * [Dein](env/vim-plugin-managers/dein.md)
   * [Vundle](env/vim-plugin-managers/vundle.md)
   * [Vim-Plug](env/vim-plugin-managers/vim-plug.md)
-* [Configuration](env/untitled.md)
 
