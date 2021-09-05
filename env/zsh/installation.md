@@ -6,7 +6,7 @@ description: Share root zsh configuration with all users
 
 ### Install `zsh` through the `apt-get` package manager.
 
-Login as root
+Login as root.  
 
 ```
 $ sudo apt-get install zsh
@@ -18,13 +18,21 @@ The first time you run `zsh` a script will be run
 $ zsh /usr/share/zsh/functions/Newuser/zsh-newuser-install -f
 ```
 
-Make sure the user has permissions to read the file
+Make sure the user has permissions to read the file and added into the sudoers file.
 
 ```text
-sudo chmod 744 /root/.zshrc
+$ sudo chmod 744 /root/.zshrc
 ```
 
-###  <a id="3-&#x2013;-Configuration-Files-Layout"></a>
+For convenience, I modified `zsh-newuser-install` by adding an additional option at start:
+
+```text
+$ curl -L git.io/antigen > antigen.zsh
+$ cp /root/.zshrc $zd/.zshrc
+$ source $zd/.zshrc
+```
+
+ 
 
 ### Configuration Files Layout <a id="3-&#x2013;-Configuration-Files-Layout"></a>
 
