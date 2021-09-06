@@ -21,8 +21,9 @@
 ## SSH
 
 * [Overview](ssh/friendly-overview.md)
-* [Authentication](ssh/beginners-guide/README.md)
-  * [Adding Users](ssh/beginners-guide/adding-users.md)
+* [Adding Users](ssh/adding-users/README.md)
+  * [Custom Configurations](ssh/adding-users/custom-configurations.md)
+* [Establishing Connections](ssh/beginners-guide/README.md)
   * [SSH Agent](ssh/beginners-guide/untitled-1.md)
 * [Remote Port Forwarding](ssh/remote-port-forwarding.md)
 * [Local Port Forwarding](ssh/local-port-forwarding.md)
@@ -34,11 +35,11 @@
 
 ## Env
 
+* [Zsh](env/zsh/README.md)
+  * [Installation](env/zsh/installation.md)
 * [Bash](env/bash.md)
-* [Modes](env/modes.md)
 * [Plugin Managers](env/vim-plugin-managers/README.md)
   * [Dein](env/vim-plugin-managers/dein.md)
   * [Vundle](env/vim-plugin-managers/vundle.md)
   * [Vim-Plug](env/vim-plugin-managers/vim-plug.md)
-* [Configuration](env/untitled.md)
 
