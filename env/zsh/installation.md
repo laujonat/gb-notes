@@ -2,7 +2,7 @@
 description: Share root zsh configuration with all users
 ---
 
-# Installation
+# Setup
 
 ### Install `zsh` through the `apt-get` package manager.
 
@@ -70,4 +70,45 @@ A global configuration file, will be sourced when a login shell exits.
 
 `~/.zlogout`  
 Same as the previous file before it, except for individual-user configuration.
+
+### Organization 
+
+```text
+# Some envars
+my_fname=micah
+my_shdir=~/config/shell
+my_configs=(
+    envars.sh
+    actions.sh  # super fast
+    options.zsh # potential to be slow
+    aliases.sh
+    aliases.zsh
+    functions.sh
+)
+my_plugins=( $my_shdir/zsh/plugins/*.zsh )
+
+# Time the stuff.
+integer t0=$(date '+%s')
+
+# Source all the Zsh-specific and sh-generic files.
+for f in $my_configs; do
+    ##print starting $f
+    [[ -f $my_shdir/$f ]] && . $my_shdir/$f
+    ##print finished $f
+done
+
+# Plugin stuff omitted
+# Site-specific stuff omitted
+
+function {
+    local -i t1 startup
+    t1=$(date '+%s')
+    startup=$(( t1 - t0 ))
+    [[ $startup -gt 1 ]] && print "Hmm, poor shell startup time: $startup"
+    ##print "startup time: $startup"
+}
+unset t0
+```
+
+
 

@@ -35,8 +35,9 @@
 
 ## Env
 
+* [Ansible](env/ansible.md)
 * [Zsh](env/zsh/README.md)
-  * [Installation](env/zsh/installation.md)
+  * [Setup](env/zsh/installation.md)
 * [Bash](env/bash.md)
 * [Plugin Managers](env/vim-plugin-managers/README.md)
   * [Dein](env/vim-plugin-managers/dein.md)
