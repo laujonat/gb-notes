@@ -12,26 +12,32 @@ description: 'Official Documentation: https://stormssh.readthedocs.io/en/latest/
 $ storm add [-h]  [--id_file ID_FILE] name connection_uri
 ```
 
-where -h, id\_file are optional arguments.
+where `-h,` `id_file` are optional arguments.
 
-example
+#### Example
 
 ```text
 $ storm add my_vps root@emreyilmaz.me:22
 my_vps added to your ssh config. you can connect it by typing "ssh my_vps".
 ```
 
-example with id file::$ storm add my\_vps [root@emreyilmaz.me](mailto:root%40emreyilmaz.me):22 –id\_file=–id\_file=/Users/myusername/mykey.pem my\_vps added to your ssh config. you can connect it by typing “ssh my\_vps”.
+#### Example with id file:
 
-### editing hosts
+```text
+$ storm add my_vps root@emreyilmaz.me:22 –id_file=–id_file=/Users/myusername/mykey.pem my_vps 
+```
+
+You can connect it by typing `ssh my_vps`.
+
+### Editing hosts
 
 ```text
 storm edit [-h] [--id_file ID_FILE] name connection_uri
 ```
 
-Where -h, id\_file are optional arguments.
+Where `-h`, `id_file` are optional arguments.
 
-example:
+#### Example
 
 ```text
 $ storm edit my_vps emre@emreyilmaz.me:2400
@@ -44,7 +50,7 @@ $ storm edit my_vps emre@emreyilmaz.me:2400
 storm update [-h] [--connection_uri CONNECTION_URI] [--id_file ID_FILE] name
 ```
 
-Where -h, id\_file and connection\_uri are optional arguments.
+Where `-h,` `id_file` and `connection_uri` are optional arguments.
 
 example:
 
@@ -114,7 +120,7 @@ create a config file in `/home/$user/.stormssh/config`:
 }
 ```
 
-### connection uri format
+### Connection URI Format
 
 * [user@server](mailto:user%40server):port \([root@server.com](mailto:root%40server.com):22\)
 * server:port \(server.com:22\)
@@ -124,7 +130,7 @@ defaults for _user_ -&gt; `$USER`, _port_ -&gt; 22 if they are not specified.
 
 see [ssh\_uri\_parser](https://github.com/emre/storm/blob/master/storm/ssh_uri_parser.py) for further look.
 
-### web ui
+### Web UI
 
 New in version 0.5.
 
