@@ -8,7 +8,7 @@ description: >-
 
 ## Filesystem Hierarchy Standard \(FHS\)
 
-Windows, Mac, and UNIX are three of the most widely used operating systems today. Each of these operating systems contain their own set of standards and guidelines of programs running on their platform. 
+Windows, Mac, and UNIX are three of the most widely used operating systems today. Each of these operating systems contain their own set of standards and guidelines of programs running on their platform.
 
 In Linux, this standard enables:
 
@@ -17,19 +17,13 @@ In Linux, this standard enables:
 
 [https://www.tecmint.com/linux-directory-structure-and-important-files-paths-explained/](https://www.tecmint.com/linux-directory-structure-and-important-files-paths-explained/)
 
-### Init System 
+### Init System
 
 #### `systemd`
 
 * The `systemd` software suite provides fundamental building blocks for a Linux operating system. 
 * Upon system start up, `systemd`bootstraps the user space and manages user processes .
 * `systemd` aims to unify service configuration and behavior across [Linux distributions](https://en.wikipedia.org/wiki/Linux_distribution)
-
-
-
-
-
-
 
 #### Sources
 

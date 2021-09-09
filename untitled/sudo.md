@@ -16,6 +16,6 @@ Permissions
 /etc/passwd
 ```
 
-[  
+[    
 ](https://app.gitbook.com/@jonathanlau-io/s/command-line-efficiency/~/drafts/-Lnyv7vAMtAB75bFbZEd/primary/)
 

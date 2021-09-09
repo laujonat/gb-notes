@@ -1,17 +1,15 @@
 # Getting Public IP Address
 
-#### Public IP from Shell script
+### Public IP from Shell script
 
 ```text
 #!/bin/bash
- 
+
 PUBLIC_IP=`wget http://ipecho.net/plain -O - -q ; echo`
 echo $PUBLIC_IP
 ```
 
-
-
-### Find Public IP using Linux Command
+## Find Public IP using Linux Command
 
 **Command 1 –**
 
@@ -44,6 +42,4 @@ curl icanhazip.com
 ```text
 curl ifconfig.me
 ```
-
-
 

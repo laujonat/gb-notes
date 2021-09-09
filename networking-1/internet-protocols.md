@@ -18,8 +18,6 @@ IP \(version 4\) addresses are 32-bit integers that can be expressed in hexadeci
 
 IPv6 addresses have two logical parts: a 64-bit network prefix, and a 64-bit host address part. \(The host address is often automatically generated from the interface MAC address.\[37\]\) An IPv6 address is represented by 8 groups of 16-bit hexadecimal values separated by colons \(:\) shown as follows:
 
-
-
 ## Linux Utilities
 
 ```bash
@@ -29,13 +27,9 @@ ipv6() {
 }
 ```
 
+{% embed url="http://www.steves-internet-guide.com/ipv6-guide/" caption="" %}
 
+{% embed url="https://www.techrepublic.com/blog/data-center/breaking-down-an-ipv6-address-what-it-all-means/" caption="" %}
 
-{% embed url="http://www.steves-internet-guide.com/ipv6-guide/" %}
-
-{% embed url="https://www.techrepublic.com/blog/data-center/breaking-down-an-ipv6-address-what-it-all-means/" %}
-
-{% embed url="https://bluecatnetworks.com/glossary/what-is-ipv4/" %}
-
-
+{% embed url="https://bluecatnetworks.com/glossary/what-is-ipv4/" caption="" %}
 

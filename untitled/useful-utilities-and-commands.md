@@ -9,9 +9,9 @@ description: >-
 
 ## Viewing Active Processes
 
-The `ps` utility displays a header line, followed by lines containing information about all of your processes that have controlling terminals. 
+The `ps` utility displays a header line, followed by lines containing information about all of your processes that have controlling terminals.
 
-The following command outputs process information for some user.  Breaking down each column:
+The following command outputs process information for some user. Breaking down each column:
 
 ```bash
 $ ps aux | grep ssh
@@ -35,7 +35,7 @@ $ ps aux | grep ssh
 
 ### Process State
 
-To find the state of a current process, the ps utility outputs process state codes in the  `STAT` column. 
+To find the state of a current process, the ps utility outputs process state codes in the `STAT` column.
 
 ```text
 D Uninterruptible sleep (usually IO)
@@ -53,7 +53,7 @@ N low-priority (nice to other users)
 L has pages locked into memory (for real-time and custom IO)
 s is a session leader
 l is multi-threaded (using CLONE_THREAD, like NPTL pthreads do)
-+ is in the foreground process group 
++ is in the foreground process group
 ```
 
 ### Listing Processes

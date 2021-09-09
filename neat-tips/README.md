@@ -4,7 +4,7 @@ description: Cheat sheet of Linux commands
 
 # CLI Commands
 
-On Linux/Unix or Linux-like operating systems, it ships with an internal manual used to reference system commands and use cases. 
+On Linux/Unix or Linux-like operating systems, it ships with an internal manual used to reference system commands and use cases.
 
 [http://www.linfo.org/man.html](http://www.linfo.org/man.html)
 
@@ -24,7 +24,7 @@ SYNOPSIS
     [-w local_tun[:remote_tun]] destination [command]
 ```
 
-Instead of using Google, Bing, or your best friend, it is to your advantage to spend time understanding how to effectively utilize Linux manuals. 
+Instead of using Google, Bing, or your best friend, it is to your advantage to spend time understanding how to effectively utilize Linux manuals.
 
 Some alternatives to the default Linux man pages:
 
@@ -42,17 +42,17 @@ $ pip install --user manly
 ### Files and Directories
 
 ```bash
-$ man ls 
+$ man ls
 ```
 
-####  `ls`
+#### `ls`
 
 * `ls -lt` List sorted output by last date and time modified
 * `ls -halt`- List sorted files/dir both hidden and human readable sizes
-* `ls -lah` - List all hidden/non-hidden files/dir and their sizes ``
+* `ls -lah` - List all hidden/non-hidden files/dir and their sizes \`\`
 
 ```bash
-$ man pwd 
+$ man pwd
 ```
 
 #### `pwd`

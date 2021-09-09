@@ -4,15 +4,15 @@ description: SSH config notes
 
 # SSH Config
 
-{% embed url="https://stormssh.readthedocs.io/en/master/" %}
+{% embed url="https://stormssh.readthedocs.io/en/master/" caption="" %}
 
 `stormssh` is a command line tool to manage your `ssh` connections.
 
-### SSH Config File Location <a id="ssh-config-file-location"></a>
+## SSH Config File Location <a id="ssh-config-file-location"></a>
 
 OpenSSH client-side configuration file is named `config`, and it is stored in the `.ssh` directory under the user’s home directory.
 
-### SSH Config File Structure and Patterns <a id="ssh-config-file-structure-and-patterns"></a>
+## SSH Config File Structure and Patterns <a id="ssh-config-file-structure-and-patterns"></a>
 
 The SSH Config File takes the following structure:
 
@@ -28,7 +28,5 @@ Host *
     SSH_OPTION value
 ```
 
-Use `stormssh` to manage SSH config.  
-
-
+Use `stormssh` to manage SSH config.
 

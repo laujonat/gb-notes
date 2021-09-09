@@ -4,11 +4,11 @@ description: Share root zsh configuration with all users
 
 # Installation
 
-### Install `zsh` through the `apt-get` package manager.
+## Install `zsh` through the `apt-get` package manager.
 
-Login as root.  
+Login as root.
 
-```
+```text
 $ sudo apt-get install zsh
 ```
 
@@ -32,9 +32,7 @@ $ cp /root/.zshrc $zd/.zshrc
 $ source $zd/.zshrc
 ```
 
- 
-
-### Configuration Files Layout <a id="3-&#x2013;-Configuration-Files-Layout"></a>
+## Configuration Files Layout <a id="3-&#x2013;-Configuration-Files-Layout"></a>
 
 When Z Shell starts, it sources the following files in this order:
 

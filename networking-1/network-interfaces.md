@@ -51,8 +51,6 @@ At it’s very least, the syntax for `POST` is the same as `GET`:
 POST https://httpbin.org/post
 ```
 
- 
-
 This will then prompt you for the content you’d like to `POST`. The string expected should be in a query string format that looks something like this:
 
 ```text
@@ -82,7 +80,7 @@ When you’re done entering in your content, simply hit `CTRL-D` and the content
 }
 ```
 
- Copy
+Copy
 
 ### `HEAD` <a id="head"></a>
 
@@ -94,8 +92,6 @@ Similar to `GET` and `POST`, the syntax for `HEAD` is quite minimal:
 HEAD http://alligator.io/
 ```
 
- 
-
 This will return a `200 OK` and information about the headers returned by the web service.
 
 Unfortunately, this isn’t quite right, because we serve up Alligator.io over HTTPS like the good security-minded reptilian webizens that we are.
@@ -105,8 +101,6 @@ The `HEAD` command by default only gives you information about the last stop in 
 ```text
 HEAD -S http://alligator.io/
 ```
-
- 
 
 Which gives us a bit more insight:
 
@@ -153,8 +147,6 @@ On Centos, Rocky Linux, Fedora, and RedHat derived distributions you can install
 sudo dnf install epel-release
 sudo dnf install httpie
 ```
-
- 
 
 My local aliases look like this:
 

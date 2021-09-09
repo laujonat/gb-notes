@@ -22,7 +22,7 @@ inet 192.168.0.10/24
 inet6 fe80::a00:27ff:fe76:1e71/64
 ```
 
-#### Using the `ifconfig` Command <a id="ftoc-heading-4"></a>
+## Using the `ifconfig` Command <a id="ftoc-heading-4"></a>
 
 The third method to find your IP address involves using the [ifconfig command](https://phoenixnap.com/kb/centos-ifconfig). In the command line, enter the following:
 

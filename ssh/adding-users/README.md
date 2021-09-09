@@ -4,13 +4,13 @@ description: Adding Users to Linux
 
 # Adding Users
 
-### How to Create a New User in Linux <a id="how-to-create-a-new-user-in-linux"></a>
+## How to Create a New User in Linux <a id="how-to-create-a-new-user-in-linux"></a>
 
 To create a new user account, invoke the `useradd` command followed by the name of the user.
 
 For example to create a new user named `username` you would run:
 
-### `useradd` Command <a id="useradd-command"></a>
+## `useradd` Command <a id="useradd-command"></a>
 
 The general syntax for the `useradd` command is as follows:
 
@@ -24,7 +24,7 @@ When invoked, `useradd` creates a new user account according to the options spec
 
 The variables defined in this file differ from distribution to distribution, which causes the `useradd` command to produce different results on different systems.
 
-### How to Create a New User in Linux <a id="how-to-create-a-new-user-in-linux"></a>
+## How to Create a New User in Linux <a id="how-to-create-a-new-user-in-linux"></a>
 
 To create a new user account, invoke the `useradd` command followed by the name of the user.
 
@@ -46,9 +46,7 @@ sudo passwd usernameCopy
 
 You will be prompted to enter and confirm the password. Make sure you use a strong password.
 
-
-
-### How to Add a New User and Create Home Directory <a id="how-to-add-a-new-user-and-create-home-directory"></a>
+## How to Add a New User and Create Home Directory <a id="how-to-add-a-new-user-and-create-home-directory"></a>
 
 On most Linux distributions, when creating a new user account with `useradd`, the user’s home directory is not created.
 
@@ -75,7 +73,7 @@ Copy
 
 Within the home directory, the user can write, edit and delete files and directories.
 
-### Creating a User with Specific Home Directory <a id="creating-a-user-with-specific-home-directory"></a>
+## Creating a User with Specific Home Directory <a id="creating-a-user-with-specific-home-directory"></a>
 
 By default `useradd` creates the user’s home directory in `/home`. If you want to create the user’s home directory in other location, use the `d` \(`--home`\) option.
 

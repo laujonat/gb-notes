@@ -5,7 +5,7 @@
 * The `ssh-agent` is a helper program that keeps track of user's identity keys and their passwords. 
 * The agent can then use the keys to log into other servers without having the user type in a password or passphrase again.
 
-#### `ssh-keygen`
+### `ssh-keygen`
 
 ```bash
 ssh-keygen -R [hostname]
@@ -13,7 +13,7 @@ ssh-keygen -R [ip_address]
 ssh-keygen -R [hostname],[ip_address]
 ```
 
-#### **`ssh-keyscan`**
+### **`ssh-keyscan`**
 
 ```bash
 ssh-keyscan -H [hostname],[ip_address] >> ~/.ssh/known_hosts

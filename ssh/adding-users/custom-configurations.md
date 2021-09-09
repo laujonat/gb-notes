@@ -6,9 +6,9 @@ description: Adding users with custom configurations
 
 \*To enable `zsh antigen` for all users see document [_**zsh installation**_](../../env/zsh/installation.md)_\*\*\*\*_
 
-### Editing the default options used by `useradd`.
+## Editing the default options used by `useradd`.
 
-#### Method 1
+### Method 1
 
 The following example shows how to change the default shell from /bin/bash to /bin/ksh during user creation.
 
@@ -45,7 +45,7 @@ priya:x:512:512::/home/priya:/bin/ksh
 [Note: Set it back to /bin/bash, as the above is only for testing purpose]
 ```
 
-#### Method 2
+### Method 2
 
 ```text
 Syntax: # useradd -s <SHELL> -m -d <HomeDir> -g <Group> UserName
