@@ -21,9 +21,16 @@ $ vim /etc/nginx/sites-available/default
 
 Verify changes
 
-
-
 ```text
 $ nginx -t
 ```
+
+### Deploy using Docker Host
+
+```text
+ $ docker build -t fastapi
+ $ docker run -d -p 8000:80 --name fastapi nginx
+```
+
+
 

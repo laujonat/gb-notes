@@ -46,6 +46,7 @@
 
 ## Web Server
 
+* [Traefik](web-server/traefik.md)
 * [Docker](web-server/docker.md)
 * [Nginx](web-server/nginx.md)
 
