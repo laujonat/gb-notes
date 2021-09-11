@@ -46,6 +46,7 @@
 
 ## Web Server
 
+* [Notes](web-server/notes.md)
 * [Traefik](web-server/traefik.md)
 * [Docker](web-server/docker.md)
 * [Nginx](web-server/nginx.md)
