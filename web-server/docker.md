@@ -105,8 +105,6 @@ docker container run hello-worldCopy
 
 The command will download the test image, if not found locally, run it in a container, print a “Hello from Docker” message, and exit. The output should look like the following:
 
-![Docker Hello World](https://linuxize.com/post/how-to-install-and-use-docker-on-ubuntu-20-04/docker-hello-world_hu0e93396502d67b4a7c43a5ce3cac5c2c_75442_768x0_resize_q75_lanczos.jpg?ezimgfmt=ng:webp/ngcb90)
-
 The container will stop after printing the message because it does not have a long-running process.
 
 By default, Docker pulls images from the Docker Hub. It is a cloud-based registry service which among other functionalities, stores the Docker images in public or private repositories.
