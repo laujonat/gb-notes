@@ -29,7 +29,6 @@
 * [Local Port Forwarding](ssh/local-port-forwarding.md)
 * [Adding SSH Keys](ssh/new-ssh-keys.md)
 * [SSH Config](ssh/ssh-config/README.md)
-  * [Add User and Enable SSH](ssh/ssh-config/add-user-and-enable-ssh.md)
   * [Configure Stormssh](ssh/ssh-config/configure-stormssh.md)
 * [Enable Logs](ssh/file-system-and-configuration.md)
 
@@ -46,6 +45,7 @@
 
 ## Web Server
 
+* [Troubleshooting Notes](web-server/troubleshooting-notes.md)
 * [Notes](web-server/notes.md)
 * [Traefik](web-server/traefik.md)
 * [Docker](web-server/docker.md)
